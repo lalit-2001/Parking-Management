@@ -9,6 +9,7 @@ display: flex;
 justify-content:space-evenly;
 
 }
+
     </style>
 </head>
 <body>
