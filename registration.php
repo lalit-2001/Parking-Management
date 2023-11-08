@@ -37,7 +37,7 @@ REGISTRATION FORM
 
 *{ 
     background-size:cover;
-    background-image: url();  
+    background-image: url('registration.png');  
 }
 ul{   
 color: green;
@@ -49,7 +49,7 @@ justify-content:space-evenly;
 }
 a {
     
-    color:white;
+    color:black;
     border: 0.5px solid green;
 }
     </style>

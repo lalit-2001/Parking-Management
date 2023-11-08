@@ -9,6 +9,10 @@ display: flex;
 justify-content:space-evenly;
 
 }
+*{ 
+    background-size:cover;
+    background-image: url('registration.png');  
+}
 a {
     
     color:black;
@@ -19,11 +23,10 @@ a {
 <body>
 <div class="main">		
 <ul>
-<li><a href="index.php">Home</a></li>
-<li><a href="about.php" >About</a></li>
-<li><a href="contact.php" >Contact</a></li>
-
-	</ul>		
+ <a href="index.php">Home</a>
+ <a href="about.php" >About</a>
+ <a href="contact.php" >Contact</a>
+</ul>		
 	</div>
 <script>  
     function validateform(){  

@@ -7,7 +7,10 @@ ul{
 color: green;
 display: flex;
 justify-content:space-evenly;
-
+}
+*{ 
+    background-size:cover;
+    background-image: url('registration.png');  
 }
 
     </style>

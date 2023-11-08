@@ -6,6 +6,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+*{ 
+    background-size:cover;
+    background-image: url('registration.png');  
+}
 * {
   box-sizing: border-box;
 }
