@@ -24,7 +24,6 @@ a {
     </style>
 </head>
 <body>
-
 <ul>
 <a href="index.php">Home</a>
 <a href="login.php">Login</a>
@@ -32,10 +31,6 @@ a {
 <a href="contact.php">Contact</a>
 <a href="admin.php">Admin</a>
 </ul>
-
-
-	
-
 
 </body>
 </html>

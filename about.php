@@ -7,7 +7,10 @@ body {
 }
 
 * {
-  box-sizing: border-box;
+   
+    background-size:cover;
+    background-image: url('registration.png');  
+    box-sizing: border-box;
 }
 
 /* Style inputs */

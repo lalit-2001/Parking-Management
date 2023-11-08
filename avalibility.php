@@ -8,8 +8,8 @@ if(isset($_POST['submit']))
 	$a=$_POST['park_name'];
 	
 	$sql="select * from parking where park_name='$a'";
-	$r=pg_query($con,$sql);
-      $row=pg_fetch_row($r);
+	$r=mysqli_query($con,$sql);
+      $row=mysqli_fetch_row($r);
 
 
 }
@@ -29,9 +29,9 @@ PARKING AVAILIBILITY</font>
 <div class="navbar">
 <ul class="menu">
 
-<li><a href="login.php">Login</a></li>
-<li><a href="about.php" >About</a></li>
-<li><a href="contact.php" >Contact</a></li>
+<a href="login.php">Login</a>
+<a href="about.php" >About</a>
+<a href="contact.php" >Contact</a>
 
 </ul>
 </div>

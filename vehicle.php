@@ -52,7 +52,7 @@ $message="";
 		$no_of_hrs=$_POST['no_of_hrs'];		
 		$date=$_POST['date'];
 	echo $p="insert into vehicle(v_no,v_type,no_of_hrs,date) values('$v_no','$v_type','$no_of_hrs','$date')";
-		$result=pg_query($con,$p);
+		$result=mysqli_query($con,$p);
 		if($result>0)
 { 
 echo"<script>alert('you have successfully registred')</script>";	//header('location:lo.php');

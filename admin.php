@@ -73,8 +73,8 @@ if(isset($_POST['submit']))
 $a=$_POST['aid'];
 $p=$_POST['password'];
 $sql="select * from admin where email='$a' and password='$p'";
-$result=pg_query($con,$sql);
-if(pg_num_rows($result)>0)
+$result=mysqli_query($con,$sql);
+if(num_rows($result)>0)
 {
 $_SESSION['admin_id']=$a;
 
